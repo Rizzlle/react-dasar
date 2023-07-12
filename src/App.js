@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import HelloClass from './components/HelloClass'
+import HelloFunction from './components/HelloFunction'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <HelloClass name="Budi" / > */}
+      <HelloFunction name="Sarah" umur="19 tahun" />
     </div>
   );
 }
